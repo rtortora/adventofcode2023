@@ -80,7 +80,7 @@ def sum_game_ids_that_pass_test(games) -> int:
 
 def main():
     #games = parse_games(testinput)
-    games = parse_games(open("./q2-1-input.txt").read())
+    games = parse_games(open("./inputs/q2.txt").read())
     for game in games:
         print(game)
         print(does_pass_test(game))

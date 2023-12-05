@@ -91,7 +91,7 @@ def parse_game(line: str):
 
 def main():
     #games = parse_games(testinput)
-    games = parse_games(open("./q2-1-input.txt").read())
+    games = parse_games(open("./inputs/q2.txt").read())
     sum = 0
     for game in games:
         min_drawing = game.get_min_drawing()

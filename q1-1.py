@@ -5,7 +5,7 @@ treb7uchet"""
 
 def main():
   #sum_calibration_values(test_data)
-  sum_calibration_values(open("./q1-1-input.txt").read())
+  sum_calibration_values(open("./inputs/q1.txt").read())
 
 def sum_calibration_values(input):
   sum = 0
